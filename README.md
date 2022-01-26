@@ -1,3 +1,11 @@
+**Japanese Kanji Graph**
+
+The nodes represent Japanese kanji and the edges represent words that can be comprised. Bigger nodes mean higher degree. The resulting clusters are thought to represent semantic fields of Japanese kanji words.
+Rescaling the nodes according to betweenness centrality does not really change the graph. Thus, bigger nodes could also be interpreted as central.
+
+The data for this graph was compiled from the list of 44998 most frequent Japanese words https://github.com/hingston/japanese
+All words containg kana or one-kanji words were eliminated. The number of words represented in this graph is 18848, with 16343 of them consisting of two kanji.
+
 Template provided by InteractiveVis project
 http://blogs.oii.ox.ac.uk/vis/
 https://github.com/oxfordinternetinstitute/InteractiveVis/
